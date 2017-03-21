@@ -1,3 +1,3 @@
-FROM alpine:3.4
+FROM busybox
 #ENV Container IntTest
-CMD /bin/bash -c "echo 'Integration tests executed : Passed'"
+CMD echo "Integration tests executed : Passed"
